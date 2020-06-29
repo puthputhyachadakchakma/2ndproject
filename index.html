@@ -5,19 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        .main{
+            margin: 20px auto;
+            padding: 10px;
+            border: 5px dotted red;
+        }
       input:focus{
-          font-size: 20px;
-          color: brown;
+          font-size: 30px;
+          color:black;
       }
       ul li{
           list-style: none;
       }
-      li:nth-child(2n)
+      li:nth-child(2n):hover
       {
           background-color: brown;
       }
       li:nth-child(2n+1):hover{
-          background-color: chartreuse;
+          background-color:green;
       }
       a:visited{
        color: red;
@@ -25,26 +30,43 @@
       a{
           color: rosybrown;
       }
+      h1::before{
+          background-color: saddlebrown;
+          content: "hello";
+      }
+      li::after{
+          content: "Friends";
+          background-color: slateblue;
+          margin-block: ;
+      }
     </style>
 </head>
 <body>
-    <h1>hello</h1>
+    <h1>This is our website.</h1>
     <p>daner longadu primary school.</p>
     <input type="text">
     <br>
     <button>click me</button>
     <ul>
-        <li>hello</li>
-        <li>hello</li>
-        <li>hello</li>
-        <li>hello</li>
-        <li>hello</li>
-        <li>hello</li>
-        <li>hello</li>
-        <li>hello</li>
+        <li>Hello</li>
+        <li>Hello</li>
+        <li>Hello</li>
+        <li>Hello</li>
+        <li>Hello</li>
+        <li>Hello</li>
+        <li>Hello</li>
+        <li>Hello</li>
     </ul>
     <a href="https://www.google.com/search?client=firefox-b-d&q=google.com">Google</a>
     <a href="https://www.youtube.com/">youtube</a>
     <a href="whatsup.com">hello</a>
+    <div class="main">
+    <h2>They are very poor & illiterate.</h2>
+    <h2>They are very poor & illiterate.</h2>
+    <h2>They are very poor & illiterate.</h2>
+    <h2>They are very poor & illiterate.</h2>
+    <h2>They are very poor & illiterate.</h2>
+    <h2>They are very poor & illiterate.</h2>
+    </div>
 </body>
 </html>
